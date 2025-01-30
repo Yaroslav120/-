@@ -5,3 +5,16 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Yaroslav120/-.git
 git push -u origin main 
+git add main.py
+git commit -m "Add main.py with Hello World program"
+# Перевірка статусу репозиторію
+git status
+
+# Перегляд історії комітів
+git log --oneline
+
+# Якщо потрібно оновити локальну копію перед пушем
+git pull origin main
+
+# Заміна вмісту remote repo (якщо зробити force push):
+git push --force origin mai
